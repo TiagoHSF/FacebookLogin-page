@@ -7,6 +7,8 @@
     initial-scale=1.0">
     <title>Facebook</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js">
+    </script>
 </html>
 </head>
 
@@ -19,9 +21,9 @@
     </div>
     <div>
         <form>
-            <input type="text" placeholder="Email ou telefone">
-            <input type="password" placeholder="Senha">
-            <button class="entrar">Entrar</button>
+            <input id="email" type="text" placeholder="Email ou telefone">
+            <input id="senha" type="password" placeholder="Senha">
+            <button onclick="getPasswordAndEmail()" class="entrar">Entrar</button>
             <a href="#">Esqueceu a senha?</a>
             <button class="criar-conta">Criar nova conta</button>
         </form>
